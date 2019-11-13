@@ -27,12 +27,7 @@
 	color: #666
 	opacity: 1
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid
-	color: #666
-body input:required:valid,
-body textarea:required:valid
-	color: #666
+
 
 html, body
 	height: 100%
@@ -41,14 +36,19 @@ body
 	font-size: 16px
 	min-width: 320px
 	position: relative
-	line-height: 1.65
+	line-height: 1.75
 	font-family: $default-font
 	overflow-x: hidden
 	opacity: 1
+	color: #ffffff
+	&.ishome
 
-.img-responsive
-	display: block
-	max-width: 100%
-	height: auto
+h1, h2, h3, h4, h5, h6
+	line-height: 1.4
+	text-transform: uppercase
 
-@import "media" // Всегда в конце
+
+
+
+
+//@import "media" // Всегда в конце
